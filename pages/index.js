@@ -7,7 +7,7 @@ import useSWR from 'swr'
 export default () => {
   const { data, revalidate } = useSWR('/api/data', fetch, {
     // revalidate the data per second
-    refreshInterval: 1000
+    refreshInterval: 10000
   })
   const [value, setValue] = useState('')
 
