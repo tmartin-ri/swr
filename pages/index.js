@@ -15,7 +15,7 @@ export default () => {
 
   return (
     <div>
-      <h1>Refetch Interval (1s)</h1>
+      <h1>Refetch Interval (10s)</h1>
       <h2>Todo List</h2>
       <form onSubmit={async ev => {
         ev.preventDefault()
